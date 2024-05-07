@@ -1,0 +1,40 @@
+/* CSS declarations for the main selector */
+main {
+    width: 840px; /* Adjust the width as per your preference */
+    margin: 0 auto; /* Centers the content horizontally */
+}
+
+/* CSS declarations for the aside element selector */
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+/* CSS declarations for the img inside the aside */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Change the existing profile img selector to be more exclusive */
+main img {
+    width: 150px;
+    height: auto;
+}
+
+/* Change the existing paragraph p padding property value to 0 pixels */
+p {
+    padding: 0;
+}
+
+/* Apply CSS to the <footer> element */
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
